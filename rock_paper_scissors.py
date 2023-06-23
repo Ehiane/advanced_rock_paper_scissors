@@ -52,7 +52,7 @@ def playRockPaperScissors():
     while user_score < 5 and cpu_score < 5:
         print(f"\nRound {round_count}")
         print(f"Scores:\nUser: {user_score}\tCPU: {cpu_score}\n")
-        user_option = int(input("Choose:\n1: Rock\t2: Paper\t3: Scissors\n>> "))
+        user_option = int(input("Choose:\n1: Rock\t2: Paper  3: Scissors\n>> "))
         cpu_option = r.randint(1, 3)
         user_choice = options[user_option]
         cpu_choice = options[cpu_option]
